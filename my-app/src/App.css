@@ -41,17 +41,51 @@ body {
     background-color: black;
 }
 
+#cards {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;    
+}
+
 #Information {
     color: white;
     background-color: black;
     text-align: left;
     display: inline block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    margin-left: 5%;
     margin-top: 2%;
     margin-bottom:2%;
     padding: 5px 5px;
     border: medium dotted white;
+}
+
+#count {
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1%;
+}
+
+#increase, #decrease {
+    padding: 2px;
+    font-size: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: thin solid white;
+}
+
+button:hover {
+    padding: 2px;
+    background-color: black;
+    color: white;
 }
 
 h1 {
